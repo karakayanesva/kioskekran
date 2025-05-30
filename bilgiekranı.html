@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kataloglarımız</title>
+  <style>
+    body {
+      font-family: serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #ffffff;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 150px;
+      height: auto;
+    }
+
+    h1 {
+      flex-grow: 1;
+      text-align: center;
+      margin-right: 150px; /* logonun sola kaydırdığı başlığı ortalamak için */
+      font-family: serif;
+      font-size: 32px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="pdfler/logo-erpa-.png" alt="Logo" class="logo">
+    <h1>Kataloglarımız</h1>
+  </div>
+
+  <div class="grid-container">
+    <div class="card">
+      <p>Araç İçi Ekranlar</p>
+      <a href="https://anyflip.com/rujul/nlkk/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Asansör Ekranları</p>
+      <a href="https://online.anyflip.com/rujul/gnog/mobile/index.html" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Digital Signage</p>
+      <a href="https://anyflip.com/rujul/bgor/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Erpa Katalog</p>
+      <a href="https://anyflip.com/kbojr/egnw/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Hastane Sunumu</p>
+      <a href="https://anyflip.com/rujul/mqqz/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Maden ve Metal<br>Sektörü</p>
+      <a href="https://anyflip.com/kbojr/kmvz/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Profesyonel Görüntüleme<br>Sistemleri</p>
+      <a href="https://anyflip.com/rujul/zzhn/" target="_blank">Görüntüle</a>
+    </div>
+    <div class="card">
+      <p>Turizm ve Otelcilik<br>Profesyonel Ekranlar</p>
+      <a href="https://anyflip.com/rujul/bfqq/" target="_blank">Görüntüle</a>
+    </div>
+  </div>
+
+</body>
+</html>
